@@ -1,4 +1,35 @@
+//
 *{
-    margin:0;
-    padding:0;
+    margin:10px;//REMOVE O ESPAÇO EXTERNO
+    padding:0; //REMOVE O ESPAÇO INTERNO
+    //largura/altura do elemento evitando que estoure 
+    box-sizing:border-box; 
+}
+/*
+margin:10px; - todos os lados
+margin:10px 20px; 10px(topo/baixo) 20px(esquerda/direita)
+margin:10px 15px 20px 10px;(topo, direita,inferior,esquerda)
+*/
+body{
+    background:transparent;
+    /* background-image:linear-gradient(to left,#555,#fff); */
+}
+#texto1{
+    color:blue;
+    font-size:40px;
+    font-family:"Arial";
+}
+#texto2{
+    color:red;
+    font-size:50px;
+    font-family:"poppins";
+}
+#texto3{
+    color:green;
+    font-size:45px;
+    font-family:"times new Roman";
+}
+.texto{
+    color:purple;
+    font-size:70px;
 }
